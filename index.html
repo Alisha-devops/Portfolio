@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alisha Shahzad | AI Assisted Web Developer</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%233b82f6'/><text x='50' y='66' font-family='sans-serif' font-weight='700' font-size='48' fill='%23ffffff' text-anchor='middle'>AS</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Sticky Navbar -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">
+        <span class="logo-badge">AS</span>
+        <span class="logo-text">Alisha Shahzad</span>
+      </a>
+
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+
+      <nav class="nav-menu" id="navMenu">
+        <a href="#hero" class="nav-link active" data-en="Home" data-hn="Home">Home</a>
+        <a href="#about" class="nav-link" data-en="About" data-hn="Mere Baare Mein">About</a>
+        <a href="#skills" class="nav-link" data-en="Skills" data-hn="Skills">Skills</a>
+        <a href="#experience" class="nav-link" data-en="Experience" data-hn="Experience">Experience</a>
+        <a href="#projects" class="nav-link" data-en="Projects" data-hn="Projects">Projects</a>
+        <a href="#testimonials" class="nav-link" data-en="Testimonials" data-hn="Reviews">Testimonials</a>
+        <a href="#contact" class="nav-link" data-en="Contact" data-hn="Contact Karein">Contact</a>
+
+        <div class="nav-controls">
+          <button id="langToggle" class="control-btn" title="Toggle Language">
+            <span id="langLabel">Hinglish</span>
+          </button>
+          <button id="themeToggle" class="control-btn" title="Toggle Theme">
+            <span id="themeLabel" data-en="Light Mode" data-hn="Light Mode">Light Mode</span>
+          </button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section" id="hero">
+    <div class="container hero-content">
+      <div class="hero-text-block">
+        <span class="hero-subtitle" data-en="AI Assisted Web Developer & Digital Strategist" data-hn="AI Assisted Web Developer & Marketing Strategist">AI Assisted Web Developer & Digital Strategist</span>
+        <h1 class="hero-title">
+          <span data-en="Hi, I am Alisha Shahzad." data-hn="Haanji, Main Alisha Shahzad Hun.">Hi, I am Alisha Shahzad.</span><br>
+          <span class="typing-text" id="typingText"></span>
+        </h1>
+        <p class="hero-description" data-en="Specializing in high-converting web applications, performance design, and strategic brand positioning engineered for business growth." data-hn="High-converting websites aur smart web applications banati hun jo aapke business ki sales aur growth ko fast boost karein.">
+          Specializing in high-converting web applications, performance design, and strategic brand positioning engineered for business growth.
+        </p>
+        <div class="hero-cta-group">
+          <a href="#projects" class="btn btn-primary" data-en="View Projects" data-hn="Projects Dekhein">View Projects</a>
+          <a href="#contact" class="btn btn-secondary" data-en="Hire Me" data-hn="Hire Karein">Hire Me</a>
+        </div>
+      </div>
+
+      <div class="hero-stats-grid">
+        <div class="stat-card reveal">
+          <span class="stat-number" data-target="15">0</span><span class="stat-plus">+</span>
+          <span class="stat-label" data-en="Projects Completed" data-hn="Projects Deliver Kiya">Projects Completed</span>
+        </div>
+        <div class="stat-card reveal">
+          <span class="stat-number" data-target="5">0</span><span class="stat-plus">+</span>
+          <span class="stat-label" data-en="Happy Clients" data-hn="Happy Clients">Happy Clients</span>
+        </div>
+        <div class="stat-card reveal">
+          <span class="stat-number" data-target="10">0</span><span class="stat-plus">x</span>
+          <span class="stat-label" data-en="Average Growth" data-hn="Average Growth">Average Growth</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="section about-section" id="about">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-subtitle" data-en="Professional Background" data-hn="Mera Background">Professional Background</span>
+        <h2 class="section-title" data-en="About Me" data-hn="Mere Baare Mein">About Me</h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-card reveal">
+          <div class="card-icon">DEV</div>
+          <h3 data-en="Web Development" data-hn="Web Development">Web Development</h3>
+          <p data-en="Building sleek, mobile-responsive, clean code web solutions using modern HTML, CSS, and JavaScript with AI-assisted efficiency." data-hn="Sleek, mobile-responsive aur fast websites banana HTML, CSS aur JavaScript ke saath.">
+            Building sleek, mobile-responsive, clean code web solutions using modern HTML, CSS, and JavaScript with AI-assisted efficiency.
+          </p>
+        </div>
+        <div class="about-card reveal">
+          <div class="card-icon">MKT</div>
+          <h3 data-en="Marketing & Strategy" data-hn="Marketing & Strategy">Marketing & Strategy</h3>
+          <p data-en="Combining technical development skills with social media and marketing strategy to build sites focused on conversion and revenue." data-hn="Social media aur marketing strategy ka use karke websites ko sales machine banana.">
+            Combining technical development skills with social media and marketing strategy to build sites focused on conversion and revenue.
+          </p>
+        </div>
+        <div class="about-card reveal">
+          <div class="card-icon">OPT</div>
+          <h3 data-en="Sales & Growth" data-hn="Sales & Growth">Sales & Growth</h3>
+          <p data-en="Every element is designed to convert visitors into loyal clients and scale brand presence effectively." data-hn="Har ek section user conversion aur business growth ko target karke design hota hai.">
+            Every element is designed to convert visitors into loyal clients and scale brand presence effectively.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="section skills-section" id="skills">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-subtitle" data-en="Core Capabilities" data-hn="Skills & Expertise">Core Capabilities</span>
+        <h2 class="section-title" data-en="Skills & Expertise" data-hn="Meri Skills">Skills & Expertise</h2>
+      </div>
+
+      <div class="skills-wrapper">
+        <div class="skill-category reveal">
+          <h3 class="skill-category-title" data-en="Technical Skills" data-hn="Technical Skills">Technical Skills</h3>
+          <div class="skill-bars">
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>HTML5</span>
+                <span>95%</span>
+              </div>
+              <div class="progress-bar"><div class="progress-fill" style="width: 95%;"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>CSS3 / Styling</span>
+                <span>90%</span>
+              </div>
+              <div class="progress-bar"><div class="progress-fill" style="width: 90%;"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>JavaScript (ES6+)</span>
+                <span>85%</span>
+              </div>
+              <div class="progress-bar"><div class="progress-fill" style="width: 85%;"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>Git & GitHub</span>
+                <span>88%</span>
+              </div>
+              <div class="progress-bar"><div class="progress-fill" style="width: 88%;"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category reveal">
+          <h3 class="skill-category-title" data-en="Strategy & Management" data-hn="Strategy & Management">Strategy & Management</h3>
+          <div class="skill-bars">
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>Social Media Manager</span>
+                <span>92%</span>
+              </div>
+              <div class="progress-bar"><div class="progress-fill" style="width: 92%;"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>Social Media Strategist</span>
+                <span>90%</span>
+              </div>
+              <div class="progress-bar"><div class="progress-fill" style="width: 90%;"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>Marketing Strategist</span>
+                <span>88%</span>
+              </div>
+              <div class="progress-bar"><div class="progress-fill" style="width: 88%;"></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section class="section experience-section" id="experience">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-subtitle" data-en="Career Path" data-hn="Mera Work History">Career Path</span>
+        <h2 class="section-title" data-en="Work Experience" data-hn="Work Experience">Work Experience</h2>
+      </div>
+
+      <div class="timeline">
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date" data-en="6 Month Contract" data-hn="6 Month Contract">6 Month Contract</span>
+            <h3 class="timeline-role" data-en="Web Developer" data-hn="Web Developer">Web Developer</h3>
+            <h4 class="timeline-company">desk.dev</h4>
+            <p data-en="Developed responsive web interfaces, improved site performance, and collaborated on clean frontend web implementations." data-hn="Responsive frontend web interfaces develop kiye, performance code optimize kiya aur clean standards follow kiye.">
+              Developed responsive web interfaces, improved site performance, and collaborated on clean frontend web implementations.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date" data-en="3 Months" data-hn="3 Months">3 Months</span>
+            <h3 class="timeline-role" data-en="Marketing & Social Media Strategist" data-hn="Marketing & Social Media Strategist">Marketing & Social Media Strategist</h3>
+            <h4 class="timeline-company" data-en="Digital Client Campaigns" data-hn="Digital Client Campaigns">Digital Client Campaigns</h4>
+            <p data-en="Engineered social media campaigns, brand outreach strategies, and content funnels leading to multi-fold client growth." data-hn="Brand outreach strategies, campaign management aur content funnels execute kiye clients ke revenue growth ke liye.">
+              Engineered social media campaigns, brand outreach strategies, and content funnels leading to multi-fold client growth.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="section projects-section" id="projects">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-subtitle" data-en="Portfolio Showcase" data-hn="Mere Real Projects">Portfolio Showcase</span>
+        <h2 class="section-title" data-en="Featured Work" data-hn="Featured Work">Featured Work</h2>
+      </div>
+
+      <div class="projects-grid">
+
+        <!-- Project 1: Crust & Crumble -->
+        <div class="project-card reveal">
+          <div class="project-badge">Artisanal Bakery & Patisserie</div>
+          <div class="project-content">
+            <h3 class="project-title">Crust & Crumble</h3>
+            <p class="project-desc" data-en="A luxury artisanal bakery platform featuring 36-hour sourdough craft highlights, bespoke celebration cake estimator, live pre-order modal system, and WhatsApp quick-order integration." data-hn="Ek luxury artisanal bakery web app jisme 36-hour sourdough craft, bespoke cake estimator, live pre-order modal aur WhatsApp order system hai.">
+              A luxury artisanal bakery platform featuring 36-hour sourdough craft highlights, bespoke celebration cake estimator, live pre-order modal system, and WhatsApp quick-order integration.
+            </p>
+            <div class="project-tech">
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>JavaScript</span>
+              <span>Bootstrap 5</span>
+            </div>
+            <div class="project-links">
+              <a href="file:///C:/Users/sdc/Desktop/project/crust-and-crumble/index.html" target="_blank" class="project-btn" data-en="Open Local App" data-hn="Local App Kholein">Open Local App</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2: BlinkBasket -->
+        <div class="project-card reveal">
+          <div class="project-badge">E-Commerce</div>
+          <div class="project-content">
+            <h3 class="project-title">BlinkBasket Express</h3>
+            <p class="project-desc" data-en="Instant 15-minute grocery delivery web application in PKR with live category filtering, free shipping progress bar, promo code validation, and invoice generation." data-hn="15-minute express grocery delivery web app jisme live cart summary, promo code, free shipping indicator aur PDF printable receipt hai.">
+              Instant 15-minute grocery delivery web application in PKR with live category filtering, free shipping progress bar, promo code validation, and invoice generation.
+            </p>
+            <div class="project-tech">
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a href="file:///C:/Users/sdc/Desktop/project/blinkbasket-ecommerce/index.html" target="_blank" class="project-btn" data-en="Open Local App" data-hn="Local App Kholein">Open Local App</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3: The Grand Reserve -->
+        <div class="project-card reveal">
+          <div class="project-badge">Luxury Hospitality</div>
+          <div class="project-content">
+            <h3 class="project-title">The Grand Reserve</h3>
+            <p class="project-desc" data-en="Luxury fine dining restaurant interface with step-by-step reservation wizard, real-time table availability matrix, and exclusive dining layout." data-hn="Luxury fine dining restaurant application jisme live availability matrix aur multi-step reservation booking wizard hai.">
+              Luxury fine dining restaurant interface with step-by-step reservation wizard, real-time table availability matrix, and exclusive dining layout.
+            </p>
+            <div class="project-tech">
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a href="file:///C:/Users/sdc/Desktop/project/Restaurant/rest.html" target="_blank" class="project-btn" data-en="Open Local App" data-hn="Local App Kholein">Open Local App</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="section testimonials-section" id="testimonials">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-subtitle" data-en="Client Feedback" data-hn="Client Feedback">Client Feedback</span>
+        <h2 class="section-title" data-en="Impact & Results" data-hn="Client Growth Results">Impact & Results</h2>
+      </div>
+
+      <div class="testimonials-grid">
+        <div class="testimonial-card reveal">
+          <div class="rating-stars">[ RATING: 5 / 5 ]</div>
+          <p class="testimonial-text" data-en="Alisha redesigned our brand layout and user flow. Our monthly conversions and store inquiries surged multifold." data-hn="Alisha ne humara web experience redesign kiya. Conversion aur sales inquiries me zabardast jump aaya.">
+            "Alisha redesigned our brand layout and user flow. Our monthly conversions and store inquiries surged multifold."
+          </p>
+          <div class="client-info">
+            <div class="client-avatar">B</div>
+            <div>
+              <h4 class="client-name">Client Barha</h4>
+              <span class="client-stat" data-en="Measurable Revenue Growth" data-hn="Revenue Growth achieved">Measurable Revenue Growth</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card reveal">
+          <div class="rating-stars">[ RATING: 5 / 5 ]</div>
+          <p class="testimonial-text" data-en="Her strategy combined web development with marketing positioning. We saw a solid 7x growth in customer retention." data-hn="Web development aur marketing strategy ka perfect mix. Result me humein 7x customer growth mili.">
+            "Her strategy combined web development with marketing positioning. We saw a solid 7x growth in customer retention."
+          </p>
+          <div class="client-info">
+            <div class="client-avatar">7X</div>
+            <div>
+              <h4 class="client-name">Growth Client</h4>
+              <span class="client-stat" data-en="7x Revenue Scaled" data-hn="7x Sales Scaled">7x Revenue Scaled</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card reveal">
+          <div class="rating-stars">[ RATING: 5 / 5 ]</div>
+          <p class="testimonial-text" data-en="Working with Alisha was incredible. The website speed, mobile responsiveness, and 10x sales boost exceeded our target." data-hn="Kaam bahut professional tha. Mobile speed aur overall sales me 10x boost target se upar gaya.">
+            "Working with Alisha was incredible. The website speed, mobile responsiveness, and 10x sales boost exceeded our target."
+          </p>
+          <div class="client-info">
+            <div class="client-avatar">10X</div>
+            <div>
+              <h4 class="client-name">Enterprise Client</h4>
+              <span class="client-stat" data-en="10x Sales Increased" data-hn="10x Sales Increased">10x Sales Increased</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section contact-section" id="contact">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-subtitle" data-en="Get In Touch" data-hn="Baat Karein">Get In Touch</span>
+        <h2 class="section-title" data-en="Start A Project" data-hn="Project Shuru Karein">Start A Project</h2>
+      </div>
+
+      <div class="contact-box reveal">
+        <div class="contact-info">
+          <h3 data-en="Let's build something exceptional." data-hn="Aao milkar ek zabardast site banayein.">Let's build something exceptional.</h3>
+          <p data-en="Available for web development contracts, marketing strategy, and high-converting custom websites." data-hn="Web development contracts, marketing strategy aur high-converting custom websites ke liye available.">
+            Available for web development contracts, marketing strategy, and high-converting custom websites.
+          </p>
+
+          <div class="contact-details">
+            <div class="contact-item">
+              <span class="item-title" data-en="Direct Email" data-hn="Direct Email">Direct Email:</span>
+              <a href="mailto:alishashahzad032@gmail.com" class="item-value">alishashahzad032@gmail.com</a>
+            </div>
+          </div>
+
+          <div class="social-links">
+            <a href="https://github.com/Alisha-devops" target="_blank" class="social-btn">GitHub Profile</a>
+            <a href="https://linkedin.com" target="_blank" class="social-btn">LinkedIn Profile</a>
+          </div>
+
+          <div class="action-buttons">
+            <a href="mailto:alishashahzad032@gmail.com" class="btn btn-primary" data-en="Send Email" data-hn="Email Bhejein">Send Email</a>
+            <button class="btn btn-secondary" onclick="alert('Resume download initiated.')" data-en="Download Resume" data-hn="Resume Download">Download Resume</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <p data-en="&copy; 2026 Alisha Shahzad. All rights reserved." data-hn="&copy; 2026 Alisha Shahzad. All rights reserved.">&copy; 2026 Alisha Shahzad. All rights reserved.</p>
+      <button id="scrollTopBtn" class="scroll-top-btn" aria-label="Scroll to top">Top</button>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
